@@ -1,0 +1,70 @@
+p {
+    color: #ad334c;
+}
+
+#my-id{
+    color: #ece00a;
+}
+
+.my-class{
+    color: aqua;
+}
+a:hover{
+    color: aquamarine;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.box {
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    transform: rotate(0.8turn);
+}
+
+
+html {
+    background-color: #00539f;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+body {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid white;
+}
+/*
+@media (min-width: 60em){
+    body {
+        width: 700px;
+        margin: 0 auto;
+        background-color: #48ff00;
+        padding: 0 20px 20px 20px;
+        border: 5px solid white;
+    }
+}
+*/
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
+}
+
+
