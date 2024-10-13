@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #e8f4ff;
+    padding: 10px;
+}
+
+.header-logo img {
+    height: 100%;
+}
+
+
+
+.image-with-menu {
+    position: relative;
+    width: 100%; /* 根据需要调整宽度 */
+    height: 400px; /* 根据需要调整高度 */
+    
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-overlay {
+    position: absolute;
+    top: -9px;
+    left: 10px;
+    transform: translate(-50%, -50%);
+    display: flex; /* 使用flexbox */
+    justify-content: space-around; /* 横向分布 */
+    background-color: rgba(0, 0, 0, 0.5); /* 可选：为背景添加透明色 */
+    padding: 10px; /* 内边距 */
+    border-radius: 10px; /* 可选：添加圆角 */
+    width: 1168px; /* 根据需要调整宽度 */
+    height: 19px;
+}
+
+.menu-overlay a {
+    color: white; /* 导航文字颜色 */
+    text-decoration: none; /* 去掉下划线 */
+    margin: 0 10px; /* 左右间距 */
+}
+
+footer {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .partners img {
+    height: 50px;
+    margin: 0 10px;
+}

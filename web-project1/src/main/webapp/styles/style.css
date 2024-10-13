@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #e8f4ff;
+    padding: 10px;
+}
+
+.header-logo img {
+    height: 80%;
+}
+
+
+
+.image-with-menu {
+	
+    position: relative;
+    width: 240%; /* 根据需要调整宽度 */
+    height: 30px; /* 根据需要调整高度 */
+    background-image: url('../img/bgdanghang3.png'); /* 替换为你的图像路径 */
+    background-size: cover;
+    background-position:left;
+	background-repeat:no-repeat
+}
+
+.menu-overlay {
+    position: absolute;
+    top: -1px;
+    left: 10px;
+    transform: translate(-50%, -50%);
+    display: flex; /* 使用flexbox */
+    justify-content:space-around; /* 横向分布 */
+    background-color: rgba(0, 0, 0, 0); /* 可选：为背景添加透明色 */
+    padding: 10px; /* 内边距 */
+    border-radius: 10px; /* 可选：添加圆角 */
+    width: 1168px; /* 根据需要调整宽度 */
+    height: 13px;
+}
+
+.menu-overlay a {
+    color: white; /* 导航文字颜色 */
+    text-decoration: none; /* 去掉下划线 */
+    margin: 0 10px; /* 左右间距 */
+}
+
+
+
+.container0{
+	 display: flex; /* 使用 Flexbox 让图像横向排列 */
+     justify-content: space-between; /* 图像之间的距离均匀分布 */
+	
+}
+
+.container1 {
+            display: flex; /* 使用 Flexbox 让图像横向排列 */
+            justify-content: space-between; /* 图像之间的距离均匀分布 */
+            background-image: url('../img/bggundong.jpg'); /* 设置背景图像 */
+            background-size: cover; /* 背景图像覆盖整个容器 */
+            padding: 20px; /* 给容器添加内边距 */
+			background-repeat: no-repeat;
+        }
+.image-wrapper {
+    position: relative;
+    display: inline-block; /* 使输入框和按钮与图像并排 */
+}
+
+#queryInput {
+    position: absolute;
+    bottom: 10px; /* 调整文本框位置 */
+    left: 10px; /* 调整文本框位置 */
+    padding: 5px;
+}
+
+#searchButton {
+    position: absolute;
+    bottom: 10px; /* 调整按钮位置 */
+    left: 120px; /* 调整按钮位置 */
+    padding: 5px;
+}
+
+#result {
+    margin-top: 10px; /* 结果显示的间距 */
+    color: black; /* 结果文字颜色 */
+}
+
+.container2{
+	display: flex; /* 使用 Flexbox 让图像横向排列 */
+            justify-content: space-between; /* 图像之间的距离均匀分布 */
+	background-image: url('../img/bgshujuku.jpg'); /* 设置背景图像 */
+	background-repeat: no-repeat;
+}
+
+
+
+
+.image-menu {
+	
+    position: relative;
+    width: 240%; /* 根据需要调整宽度 */
+    height: 30px; /* 根据需要调整高度 */
+    background-image: url('../img/bgcp.jpg'); /* 替换为你的图像路径 */
+    background-size: cover;
+    background-position:left;
+	background-repeat:no-repeat
+}
+
+.menu {
+    position: absolute;
+    top: -1px;
+    left: 10px;
+    transform: translate(-50%, -50%);
+    display: flex; /* 使用flexbox */
+    justify-content:space-around; /* 横向分布 */
+    background-color: rgba(0, 0, 0, 0); /* 可选：为背景添加透明色 */
+    padding: 10px; /* 内边距 */
+    border-radius: 10px; /* 可选：添加圆角 */
+    width: 1168px; /* 根据需要调整宽度 */
+    height: 13px;
+}
+
+.menu a {
+    color: black; /* 导航文字颜色 */
+    text-decoration: none; /* 去掉下划线 */
+    margin: 0 15px; /* 左右间距 */
+}
+
+
+
+footer {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .partners img {
+    height: 50px;
+    margin: 0 10px;
+}
